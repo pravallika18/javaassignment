@@ -8,6 +8,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
+/* From a given set of list, get the string values to be displayed in the order of the high number of vowels to the least number of 
+ vowels from the given string values. If the number of vowels are same then it should check for the length and display the minimum one
+  first.Example: if the values are length, adata, lost then the output should be as adata, lost, length */
+
 public class Vowel3 {
 	
 	public List<String> compareVowels(List<Vowelcount> list)
@@ -61,6 +65,7 @@ public class Vowel3 {
 	
 
 }
+/* Comparator to sort the words based on vowel count and if count is equal sort by word length */
 class Sortwords implements Comparator<Vowelcount>
 {
 

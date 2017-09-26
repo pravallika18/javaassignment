@@ -5,6 +5,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+/* Write a method that accepts a Map object having key-value pairs of any size.
+ The first value and the second value gets swapped. Similarly the next two should get interchange.  */
+
 public class MapSolution1 {
 
 	  public Map<String, String> mapTest(Map<String, String> map)   

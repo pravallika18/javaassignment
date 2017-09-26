@@ -1,6 +1,7 @@
 package assignment;
 
 import java.util.Comparator;
+/* Sorting pokemon objects using comparator */
 
 public class Sortpokemen implements Comparator<Pokemon> {
 

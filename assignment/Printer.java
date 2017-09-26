@@ -1,5 +1,8 @@
 package assignment;
 
+/* Printer class with a printArray() single method (No method overloading) that accept a single argument 
+ that can be String or integer array, and prints the array elements. */
+
 public class Printer {
 
 	public <R> void printArray(R[] o) {

@@ -6,64 +6,13 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
+
+/* StudentSorter class with a sortStudent() method that accepts Student object. 
+Sort the list based on their age in decreasing order. For student having same age, sort based on their name.
+For students having same name and age, sort them according to their iD. */
+
 public class StudentSorter {
 
-//	public List<Student> Sortstudent(List<Student> st) {
-//		int n=st.size();
-//		List<Student> al=new ArrayList<Student>();
-//		List<Integer> age=new ArrayList<Integer>();
-//		List<Integer> duplicates=new ArrayList<Integer>();
-//		List<Integer> duplicates1=new ArrayList<Integer>();
-//		Set<Integer> set = new TreeSet<Integer>();
-//			for(Student s:st) {				
-//				age.add(s.age);
-//			}
-//		     Collections.sort(age);
-//		     Collections.reverse(age);
-//	     
-//			for(int c:age) {
-//				if(!set.add(c))
-//			    {
-//			        duplicates.add(c);
-//			        duplicates1.add(c);
-//			    }
-//			}
-//			
-//		for(int s:age)
-//		{
-//			if(duplicates.contains(s))
-//			{
-//				for(Student stu:st)
-//				{
-//					if(stu.age==s)
-//					{
-//						al.add(stu);
-//					}
-//				}
-//				System.out.println("---------------------------"+s);
-//				int i=duplicates.indexOf(s);
-//				System.out.println("---------------------------"+i);
-//				duplicates.remove(i);
-//			}
-//			if(!duplicates1.contains(s))
-//			{
-//				for(Student stu:st)
-//				{
-//					if(stu.age==s)
-//					{
-//						al.add(stu);
-//					}
-//				}
-//			}
-//			
-//		}
-//		for(int s:duplicates1) {
-//			System.out.println(s);
-//			}
-//		
-//		
-//		return al;
-//	}
 
 	public List<Student> sortStudent(List<Student> st)
 	{
@@ -89,7 +38,7 @@ public class StudentSorter {
 		al.add(s5);
 		al.add(s6);
 		al.add(s7);
-		//ss.sortStudent(al);
+		
 		List<Student> a=ss.sortStudent(al);
 		for(Student s:a) {
 			System.out.println("	 Id:"+s.id+"	name:"+s.name+" 	age: "+s.age);

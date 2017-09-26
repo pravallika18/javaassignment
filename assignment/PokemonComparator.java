@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/* Create a PokemonComparator class with a comparePokemon() method that accepts an array of Pokemon objects. 
+ The comparator should sorts the pokemons in order of decreasing score. If two pokemons have the same score, 
+ sort them alphabetically by name.  */
+
 public class PokemonComparator {
 
 	public List<Pokemon> comparePokemon(List<Pokemon> p)

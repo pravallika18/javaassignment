@@ -3,7 +3,7 @@ package assignment;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-
+/* generic method to get the sum value of odd elements in a collection. */
 public class Oddsum {
 
 	public <T> Integer sum(Collection<T> o) {
