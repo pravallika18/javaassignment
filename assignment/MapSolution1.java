@@ -30,6 +30,35 @@ public class MapSolution1 {
 				  map.put(k1, v2);
 				  map.put(k2,v1);  
 			  }
+		  } else if((n-((n/2)+1))%2!=0)
+		  {
+			  for(int i=0;i<(n/2)-1;i++)
+			  {
+				  System.out.println("iiiiiiiiiiiiiiiiiiiiiii"+i);
+				  String k1=st[i];
+				  String k2=st[i+1];
+				  System.out.println(k1+"       "+k2);
+				  
+				  String v1=map.get(k1);
+				  String v2=map.get(k2);
+				  
+				  System.out.println(v1+"       "+v2);
+				  
+				  map.put(k1, v2);
+				  map.put(k2,v1);  
+			  }
+			  for(int i=(n/2)+1;i<n-1;i++)
+			  {
+				  System.out.println("iiiiiiiiiiiiiiiiiiiiiii"+i);
+				  String k1=st[i];
+				  String k2=st[i+1];
+				System.out.println(k1+"       "+k2);
+				  String v1=map.get(k1);
+				  String v2=map.get(k2);
+				  
+				  map.put(k1, v2);
+				  map.put(k2,v1);  
+			  } 
 		  }
 		  else {
 			  for(int i=0;i<(n/2)-1;i=i+2)
